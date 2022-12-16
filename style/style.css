@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient( to bottom left,black, transparent, rgba(27, 40, 126, 0.886)), linear-gradient( to bottom left,rgb(78, 75, 75), transparent, black);
+    background-clip: content-box, border-box;
+    background-repeat: no-repeat;
+    background-size: 2200px 1300px;
+}
+
+h1{
+    color: rgba(29, 29, 92, 0.687);
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+
+form{
+    text-align: center;
+}
+
+form label{
+    color: blue;
+    display: block;
+    font-size: 1.4em;
+}
+
+form input{
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 auto 25px auto;
+    text-align: center;
+    display: block;
+}
+
+.button{
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+}
+
+.button:hover{
+    background: rgb(189, 204, 215);
+}
+
+#resultado{
+    transition: 2s;
+    font-size: 1.4em;
+    text-align: center;
+}
+
